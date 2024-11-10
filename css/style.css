@@ -1,0 +1,231 @@
+/* GLOBAL CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /*font-family: "Libre Franklin", sans-serif;*/
+    font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 8rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+    font-weight: normal;
+}
+
+li {
+    font-size: 1.5rem;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.main_header {
+    background-color: #fff;
+    color : black;
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 50rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav a:hover {
+    color: #3dde83;
+    /*border-top: groove #3dde83 2px;*/
+    border-bottom: groove #3dde83 2px;
+    transition: all 0.3s ease-out;
+}
+
+#logo {
+    flex: 1 1 40rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #3dde83;
+}
+
+@media screen and (max-width: 1050px) {
+    nav {
+        text-align: center;
+    }
+
+    #logo {
+        padding: 1rem;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h2 {
+        font-size: 4rem;
+    }
+
+    .hero h3 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    nav a{
+        font-size: 10px;
+        /*visibility: hidden;*/
+    }
+
+    #logo {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h2 {
+        font-size: 3rem;
+    }
+
+    .hero h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* HERO */
+
+.hero {
+    min-height: 90vh;
+    background-image: linear-gradient(rgb(0,0,0, 0.4), transparent), url("../images/cropped-illustration-1.png");
+    background-size: cover;
+    background-position: bottom;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h3 {
+    padding: 4rem;
+}
+
+button {
+    padding: 1.5rem 3rem;
+    background-color: #3dde83;
+    color: #fff;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    font-size: 2.5rem;
+    cursor: pointer;
+    border-radius: 5%;
+    border: none;
+}
+
+/* FOOTER */
+
+footer {
+    min-height: 40vh;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+footer h2, footer h3 {
+    font-family: "Quicksand", sans-serif;
+    font-size: medium;
+    padding: 2rem;
+}
+
+footer h3 {
+    color: #3dde83;;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: small;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+footer input {
+    margin-left: 2rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    width: 50rem;
+    font-family: "Quicksand", sans-serif;
+    font-size: medium;
+}
+
+footer img{
+    margin-left: 2rem;
+    height: 4rem;
+    width: 4rem;
+}
+
+.aside {
+    width: 80%;
+    margin: auto;
+}
+
+aside {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-search {
+    font-family: "Quicksand", sans-serif;
+    font-size: medium;
+    border-radius: 5px;
+    height: 56px;
+    width: 56px;
+    padding: 1rem;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#post-scriptum {
+    color: #3dde83;
+    font-family: "Dancing Script", cursive;
+    font-size:2rem;
+}

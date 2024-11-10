@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+  }
+
+@font-face {
+    font-family: "LibreFranklin-Bold";
+    src: url("../static/LibreFranklin-Bold.ttf");
+}
+
+@font-face {
+    font-family: "LibreFranklin-Regular";
+    src: url("../static/LibreFranklin-Regular.ttf");
+}
+
+body {
+    font-family: "LibreFranklin-Bold", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar {
+    background-color: #ffffff;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 70px;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+
+.navbar-item-link {
+    text-decoration: none;
+    color:#000;
+    font-family: "LibreFranklin-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px 20px;
+    margin: 0px 15px;
+    transition: all 0.5s;
+}
+
+.navbar-item-link:hover {
+    color: #fff;
+    background-color: rgb(11, 143, 110);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.button {
+    color: #fff;
+    border: none;
+    background-color: rgb(11, 143, 110);
+    font-family: "LibreFranklin-Regular", sans-serif;
+    font-size: 14px;
+    width: auto;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(4, 53, 41, 0.538);
+    transition: all 0.5s ease-in-out;
+}
+
+.button:hover {
+    color: #000;
+    background-color: #37f25f;
+    transition: all 0.5s ease-in-out;
+}

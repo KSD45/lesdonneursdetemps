@@ -1,0 +1,48 @@
+.header-img img {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.header-title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 250px;
+    left: 360px;
+    width: 50%;
+}
+
+.site-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 70px;
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+}
+
+.header-title p {
+    font-family: "LibreFranklin-Regular";
+    font-size: large;
+    color: #fff;
+    text-align: center;
+    padding: 15px 30px;
+    margin: 30px;
+    border-radius: 0px 20px;
+}
+
+.one {
+    color: #ffffff;
+	height: 75vh;
+	margin: 0;
+}
+
+.two {
+    color: #ce0d0d;
+	height: 75vh;
+	margin: 0;
+}
