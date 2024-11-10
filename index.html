@@ -53,7 +53,7 @@
                         <button class="button-search" type="submit">ok</button>
                     </form>
                     <div class="social-networks">
-                        <a href="https://www.instagram.com/lesdonneursdetemps/"><img src="images/instagram_green.png" alt="instagram"></a>
+                        <a href="google.com"><img src="images/instagram_green.png" alt="instagram"></a>
                     </div>
                     <p id="post-scriptum">Fièrement propulsé par nous</p>
                 </div>
