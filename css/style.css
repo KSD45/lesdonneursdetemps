@@ -134,10 +134,14 @@ nav a:hover {
     }
 }
 
-@media screen and (max-width: 550px) {
-    
+@media screen and (max-width: 600px) {
+
     input {
         max-width: 20rem;
+    }
+
+    .social-networks, #post-scriptum {
+        align-self: center;
     }
 }
 
